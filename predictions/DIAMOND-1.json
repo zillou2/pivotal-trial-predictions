@@ -1,0 +1,29 @@
+{
+  "trial": "DIAMOND-1",
+  "nct": "NCT05066997",
+  "drug": "OCS-01",
+  "company": "Oculis",
+  "ticker": "OCS",
+  "indication": "Diabetic Macular Edema",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 73.8,
+      "pre_review": 40.0,
+      "final": 40.0
+    },
+    "V2": {
+      "raw": 38.7,
+      "pre_review": 38.7,
+      "final": 39.0
+    },
+    "V3": {
+      "raw": 95.5,
+      "pre_review": 62.0,
+      "final": 62.0
+    },
+    "ensemble_pre_review": 46.9
+  },
+  "trading_signal": "SHORT",
+  "threshold": 50.0
+}
