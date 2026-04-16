@@ -1,0 +1,29 @@
+{
+  "trial": "CARDIO-TTRansform",
+  "nct": "NCT06194825",
+  "drug": "Eplontersen",
+  "company": "AstraZeneca/Ionis",
+  "ticker": "AZN",
+  "indication": "ATTR Cardiomyopathy",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 93.1,
+      "pre_review": 87.0,
+      "final": 87.0
+    },
+    "V2": {
+      "raw": 83.7,
+      "pre_review": 83.3,
+      "final": 64.8
+    },
+    "V3": {
+      "raw": 98.9,
+      "pre_review": 78.0,
+      "final": 78.0
+    },
+    "ensemble_pre_review": 82.8
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
