@@ -1,0 +1,29 @@
+{
+  "trial": "PIVOT-006",
+  "nct": "NCT06111235",
+  "drug": "Cretostimogene",
+  "company": "CG Oncology",
+  "ticker": "CGON",
+  "indication": "Bladder Cancer IR-NMIBC",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 78.9,
+      "pre_review": 79.0,
+      "final": 73.0
+    },
+    "V2": {
+      "raw": 82.9,
+      "pre_review": 69.0,
+      "final": 69.0
+    },
+    "V3": {
+      "raw": 85.0,
+      "pre_review": 74.0,
+      "final": 74.0
+    },
+    "ensemble_pre_review": 74.0
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
