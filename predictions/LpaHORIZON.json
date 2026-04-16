@@ -1,0 +1,29 @@
+{
+  "trial": "Lp(a)HORIZON",
+  "nct": "NCT04023552",
+  "drug": "Pelacarsen",
+  "company": "Novartis/Ionis",
+  "ticker": "NVS/IONS",
+  "indication": "MACE in elevated Lp(a)",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 71.2,
+      "pre_review": 55.0,
+      "final": 55.0
+    },
+    "V2": {
+      "raw": 99.3,
+      "pre_review": 53.0,
+      "final": 60.0
+    },
+    "V3": {
+      "raw": 64.5,
+      "pre_review": 62.0,
+      "final": 62.0
+    },
+    "ensemble_pre_review": 56.7
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
