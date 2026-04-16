@@ -1,0 +1,29 @@
+{
+  "trial": "Ph3_MDD",
+  "nct": "NCT06462612",
+  "drug": "Lumateperone",
+  "company": "Intra-Cellular Therapies",
+  "ticker": "ITCI",
+  "indication": "Major Depressive Disorder",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 84.4,
+      "pre_review": 57.9,
+      "final": 62.0
+    },
+    "V2": {
+      "raw": 84.7,
+      "pre_review": 78.0,
+      "final": 78.0
+    },
+    "V3": {
+      "raw": 88.8,
+      "pre_review": 84.0,
+      "final": 78.0
+    },
+    "ensemble_pre_review": 73.3
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
