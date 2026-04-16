@@ -1,0 +1,29 @@
+{
+  "trial": "REVEAL-2",
+  "nct": "NCT06625398",
+  "drug": "Elegrobart",
+  "company": "Viridian Therapeutics",
+  "ticker": "VRDN",
+  "indication": "Chronic Thyroid Eye Disease",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 98.7,
+      "pre_review": 90.0,
+      "final": 90.0
+    },
+    "V2": {
+      "raw": 97.2,
+      "pre_review": 90.0,
+      "final": 90.0
+    },
+    "V3": {
+      "raw": 97.8,
+      "pre_review": 85.0,
+      "final": 85.0
+    },
+    "ensemble_pre_review": 88.3
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
