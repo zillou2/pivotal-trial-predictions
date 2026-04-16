@@ -1,0 +1,29 @@
+{
+  "trial": "ABTECT_Maintenance",
+  "nct": "NCT05535946",
+  "drug": "Obefazimod",
+  "company": "Abivax",
+  "ticker": "ABVX",
+  "indication": "Ulcerative Colitis",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 99.8,
+      "pre_review": 82.0,
+      "final": 82.0
+    },
+    "V2": {
+      "raw": 97.5,
+      "pre_review": 92.8,
+      "final": 93.0
+    },
+    "V3": {
+      "raw": 99.8,
+      "pre_review": 62.0,
+      "final": 66.0
+    },
+    "ensemble_pre_review": 78.9
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
