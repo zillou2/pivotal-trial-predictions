@@ -1,0 +1,29 @@
+{
+  "trial": "POLARIS-AD",
+  "nct": "NCT05531526",
+  "drug": "Mirodenafil (AR1001)",
+  "company": "AriBio",
+  "ticker": "ARIO",
+  "indication": "Early Alzheimer's Disease",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 23.0,
+      "pre_review": 21.6,
+      "final": 15.0
+    },
+    "V2": {
+      "raw": 5.96,
+      "pre_review": 5.96,
+      "final": 3.0
+    },
+    "V3": {
+      "raw": 0.03,
+      "pre_review": 2.0,
+      "final": 2.0
+    },
+    "ensemble_pre_review": 9.9
+  },
+  "trading_signal": "SHORT",
+  "threshold": 50.0
+}
