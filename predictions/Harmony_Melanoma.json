@@ -1,0 +1,29 @@
+{
+  "trial": "Harmony_Melanoma",
+  "nct": "NCT05352672",
+  "drug": "Fianlimab+Cemiplimab",
+  "company": "Regeneron",
+  "ticker": "REGN",
+  "indication": "1L Advanced Melanoma",
+  "prediction_date": "2026-04-16",
+  "probabilities": {
+    "V1": {
+      "raw": 55.1,
+      "pre_review": 55.0,
+      "final": 55.0
+    },
+    "V2": {
+      "raw": 94.6,
+      "pre_review": 94.6,
+      "final": 47.7
+    },
+    "V3": {
+      "raw": 51.0,
+      "pre_review": 51.0,
+      "final": 55.0
+    },
+    "ensemble_pre_review": 66.9
+  },
+  "trading_signal": "LONG",
+  "threshold": 50.0
+}
