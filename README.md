@@ -17,6 +17,7 @@ Each `predictions/<trial>.json` file contains:
 - Each commit hash is **Bitcoin-timestamped** via [OpenTimestamps](https://opentimestamps.org/)
 - OTS proofs (`.ots` files) are committed back to the repo
 - Predictions are made **before** trial readout announcements
+- Anyone can verify with `ots verify ots_proofs/TRIAL.ots` that these predictions were timestamped on April 16, 2026 — before any of the trial readouts.
 
 ## Trials
 | # | Trial | NCT | Drug | Company | Ticker | Expected Readout |
