@@ -47,3 +47,27 @@ Each `predictions/<trial>.json` file contains:
 ```
 $(cat signing_key.pub)
 ```
+
+## How to Verify
+
+Each prediction's timestamp can be verified in two ways:
+
+### Web verification (no setup required)
+1. Go to [https://opentimestamps.org](https://opentimestamps.org)
+2. Upload any `ots_proofs/TRIAL.ots` file
+3. Upload the corresponding `ots_proofs/TRIAL` file (the commit hash)
+4. The site will confirm the Bitcoin block timestamp
+
+### Command-line verification (requires Bitcoin node)
+```bash
+ots verify ots_proofs/REGAL.ots
+```
+
+### Manual verification (no tools required)
+Each `ots_proofs/TRIAL` file contains the git commit hash. You can verify:
+```bash
+# Check the commit exists and was made before the trial readout
+git log --format="%H %ai %s" | grep "Prediction: TRIAL"
+# Check the commit content matches the prediction JSON
+git show <commit_hash>:predictions/TRIAL.json
+```
